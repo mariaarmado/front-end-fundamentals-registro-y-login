@@ -23,8 +23,7 @@
               .gupoinput i {
                  position: absolute;
                  top: 6px;
-                 center: 20px;
-                 color:rgb(255, 255, 255)
+                color:rgb(255, 255, 255)
               }
   
               </style>
@@ -36,23 +35,32 @@
       
         <section class="form-register">
           <CENTER> <h4>LOGIN</h4> </CENTER>
+          <br>
             <form action="" method="post">
               <div class="gruponombre">
                 <div class="grupoinput"></div>
+                <i class="fa-solid fa-at"></i>
                 
-              <div class="gruponombre">
-                    <div class="grupoinput"></div>
-                  <CENTER> <input type="controls" name="correo" id="correo" placeholder="Ingresa tu Email"> </CENTER>
-                  <i class="fa-solid fa-at"></i>
-                  </div>
-                 
-              <div class="gruponombre">
-                      <div class="grupoinput"></div>
-    <CENTER><input type="controls" name="password" id="contraseña" placeholder="Ingresa tu contraseña"></CENTER>
-    <i class="fa-solid fa-lock"></i>
-    </div>
+                <label form="iemail"></label>
+                <input id="iemail" type="Email" name="email"  placeholder="Ingresa tu Email" </input>
+          </div>
+
+          <br>
+          <div class="gruponombre">
+                  <div class="grupoinput"></div>
+
+                  <i class="fa-solid fa-lock"></i> 
+
+                  <label form="ipass"></label>
+                  <input id="ipass" type="password" name="Contraseña"  placeholder="Ingresa tu Password" </input>  
+</div>
     
-    <center> <p>Estoy de acuerdo con <a href="link"> Terminos y Condiciones</a></p></center>
+<br>
+<input id="recuerdame" type="checkbox" name="recuerdame" value="Recuerdame">
+<label form="estoy de acuerdo con">Recuerdame</label>
+
+   <a href="link">Olvidaste tu Contraseña?</a></p></center>
+
     <input class="botons" type="submit" value="Iniciar Sesion">
         <center><p>No tienes una cuenta? <a class="link" href="registarvista.html">Registrate aquí</a></p></center>
       </section>
